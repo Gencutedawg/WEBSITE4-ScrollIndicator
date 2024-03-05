@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Indicator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay loop muted id="video-background">
+        <source id="video-source" src="bg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <div class="background"></div>
+    <div class="indicator" id="scroll-indicator"></div>
+    <div class="text">
+        <div class="photocard" data-card="A" data-video="wonbg.mp4" data-audio="wonbg.mp3" onmouseover="changeVideo('wonbg.mp4', 'wonbg.mp3')">
+            <img class="front-image" src="won_back.jpg" alt="A">
+            <img class="back-image" src="won_front.jpg" alt="A Back">
+        </div>
+        <div class="photocard" data-card="B" data-video="heebg.mp4" data-audio="heebg.mp3" onmouseover="changeVideo('heebg.mp4', 'heebg.mp3')">
+            <img class="front-image" src="hee_back.jpg" alt="B">
+            <img class="back-image" src="hee_front.jpg" alt="B Back">
+        </div>
+        <div class="photocard" data-card="C" data-video="jaybg.mp4" data-audio="jakebg.mp3" onmouseover="changeVideo('jaybg.mp4', 'jaybg.mp3')">
+            <img class="front-image" src="jay_back.jpg" alt="C">
+            <img class="back-image" src="jay_front.jpg" alt="C Back">
+        </div>
+        <div class="photocard" data-card="D" data-video="jakebg.mp4" data-audio="jakebg.mp3" onmouseover="changeVideo('jakebg.mp4', 'jakebg.mp3')">
+            <img class="front-image" src="jake_back.jpg" alt="D">
+            <img class="back-image" src="jake_front.jpg" alt="D Back">
+        </div>
+        <div class="photocard" data-card="E" data-video="shbg.mp4" data-audio="shbg.mp3" onmouseover="changeVideo('shbg.mp4', 'shbg.mp3')">
+            <img class="front-image" src="sh_back.jpg" alt="E">
+            <img class="back-image" src="sh_front.jpg" alt="E Back">
+        </div>
+        <div class="photocard" data-card="F" data-video="sunbg.mp4" data-audio="sunbg.mp3" onmouseover="changeVideo('sunbg.mp4', 'sunbg.mp3')">
+            <img class="front-image" src="sun_back.jpg" alt="F">
+            <img class="back-image" src="sun_front.jpg" alt="F Back">
+        </div>
+        <div class="photocard" data-card="G" data-video="nikibg.mp4" data-audio="nikibg.mp3" onmouseover="changeVideo('nikibg.mp4', 'nikibg.mp3')">
+            <img class="front-image" src="niki_back.jpg" alt="G">
+            <img class="back-image" src="niki_front.jpg" alt="G Back">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
